@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Asos.QATraining.AcceptanceTests</id>
+    <version>$version$</version>
+    <authors>ASOS</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Asos.QATraining.AcceptanceTests</description>
+    <tags>Asos.QATraining.AcceptanceTests</tags>	
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\**\*.dll" target="" />
+    <file src="bin\$configuration$\**\*.config" target="" />
+    <file src="configuration\*" target="configuration" />
+    </files>
+</package>
+
